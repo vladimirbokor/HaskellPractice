@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 05e9858cfba4548ffb6ae909a5a0ff26f1c5ea69e69e30faea8b6eb7d7bc4dca
+-- hash: f1a5663ee89a571dd72ec5db0c815a4c44b85efaa263a043cd172969fcbcfc6c
 
 name:           haskell-practice
 version:        0.1.0.0
@@ -30,6 +30,7 @@ library
       Jun3.TypeClasses.Overlap.Help
       Jun3.TypeClasses.Overlap.Overlap
       Jun3.TypeClasses.Overlap.ViolentCoherence
+      Jun3.TypeClasses.TaglessFinal.Example
       Lib
   other-modules:
       Paths_haskell_practice
