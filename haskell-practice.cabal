@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 8b909747d9ea8986d6ada185296e3fb46c3b158eef19799ea0cbcec860fdc5a8
+-- hash: 3bff6597bde1875623b346ec172405cb4ad5168002b906b0df8ce02fdb3a4358
 
 name:           haskell-practice
 version:        0.1.0.0
@@ -27,8 +27,10 @@ source-repository head
 
 library
   exposed-modules:
+      Jun3.Extensions.Deriving.DeriveAnyClass
       Jun3.Extensions.Deriving.Foldable
       Jun3.Extensions.Deriving.Functor
+      Jun3.Extensions.Deriving.Newtypes
       Jun3.Extensions.Deriving.Standalone
       Jun3.Extensions.Deriving.Traversable
       Jun3.TypeClasses.Overlap.Help
