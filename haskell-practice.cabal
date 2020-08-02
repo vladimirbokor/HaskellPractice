@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: e0df631de3fd45e032558e85bad9b626caa98527d593948f39c2e1129807a74e
+-- hash: 71f2a6d93f36875b44699175019cef324b086e1f1209669899d9849f72c363a8
 
 name:           haskell-practice
 version:        0.1.0.0
@@ -36,6 +36,7 @@ library
       Jun3.Extensions.Deriving.Traversable
       Jun3.Extensions.FlexibleContexts
       Jun3.Extensions.FlexibleInstances
+      Jun3.Extensions.FunDeps
       Jun3.Extensions.RecordWildCard
       Jun3.Extensions.TypeOperators
       Jun3.TypeClasses.Overlap.Help
